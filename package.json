@@ -1,0 +1,27 @@
+{
+  "name": "clickfast",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/lollo110/clickFast#readme",
+  "bugs": {
+    "url": "https://github.com/lollo110/clickFast/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lollo110/clickFast.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx jest --env=jsdom"
+  },
+  "dependencies": {
+    "jsdom": "^27.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0"
+  }
+}
